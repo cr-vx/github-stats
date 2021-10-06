@@ -5,39 +5,34 @@ svg {
   font-size: 14px;
   line-height: 21px;
 }
-
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
+  fill: #292d3e;
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
 }
-
 foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 24px);
 }
-
 h2 {
   margin-top: 0;
   margin-bottom: 0.75em;
   line-height: 24px;
   font-size: 16px;
   font-weight: 600;
-  color: rgb(36, 41, 46);
+  color: #c792ea;
   fill: rgb(36, 41, 46);
 }
-
 ul {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 li {
   display: inline-flex;
   font-size: 12px;
@@ -50,25 +45,21 @@ li {
   animation-function: ease-in-out;
   animation-fill-mode: forwards;
 }
-
 @keyframes slideIn {
   to {
     transform: translateX(0);
   }
 }
-
 div.ellipsis {
   height: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .octicon {
   fill: rgb(88, 96, 105);
   margin-right: 0.5ch;
   vertical-align: top;
 }
-
 .progress {
   display: flex;
   height: 8px;
@@ -78,20 +69,17 @@ div.ellipsis {
   outline: 1px solid transparent;
   margin-bottom: 1em;
 }
-
 .progress-item {
-  outline: 2px solid rgb(225, 228, 232);
+  outline: #292d3e;
   border-collapse: collapse;
 }
-
 .lang {
   font-weight: 600;
   margin-right: 4px;
-  color: rgb(36, 41, 46);
+  color: #a6accd;
 }
-
 .percent {
-  color: rgb(88, 96, 105)
+  color: #a6accd;
 }
 </style>
 <g>
@@ -104,7 +92,7 @@ div.ellipsis {
 
 <div>
 <span class="progress">
-<span style="background-color: #f1e05a;width: 49.652%;" class="progress-item"></span><span style="background-color: #178600;width: 43.479%;" class="progress-item"></span><span style="background-color: #563d7c;width: 2.990%;" class="progress-item"></span><span style="background-color: #f34b7d;width: 1.322%;" class="progress-item"></span><span style="background-color: #9400ff;width: 0.980%;" class="progress-item"></span><span style="background-color: #222c37;width: 0.888%;" class="progress-item"></span><span style="background-color: #dd1100;width: 0.250%;" class="progress-item"></span><span style="background-color: #aace60;width: 0.206%;" class="progress-item"></span><span style="background-color: #3572A5;width: 0.160%;" class="progress-item"></span><span style="background-color: #555555;width: 0.069%;" class="progress-item"></span><span style="background-color: #199f4b;width: 0.003%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.002%;" class="progress-item"></span>
+<span style="background-color: #f1e05a;width: 49.646%;" class="progress-item"></span><span style="background-color: #178600;width: 43.486%;" class="progress-item"></span><span style="background-color: #563d7c;width: 2.989%;" class="progress-item"></span><span style="background-color: #f34b7d;width: 1.322%;" class="progress-item"></span><span style="background-color: #9400ff;width: 0.980%;" class="progress-item"></span><span style="background-color: #222c37;width: 0.888%;" class="progress-item"></span><span style="background-color: #dd1100;width: 0.250%;" class="progress-item"></span><span style="background-color: #aace60;width: 0.206%;" class="progress-item"></span><span style="background-color: #3572A5;width: 0.160%;" class="progress-item"></span><span style="background-color: #555555;width: 0.069%;" class="progress-item"></span><span style="background-color: #199f4b;width: 0.003%;" class="progress-item"></span><span style="background-color: #89e051;width: 0.002%;" class="progress-item"></span>
 </span>
 </div>
 
@@ -125,7 +113,7 @@ fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 viewBox="0 0 16 16" version="1.1" width="16" height="16"><path
 fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"></path></svg>
 <span class="lang">C#</span>
-<span class="percent">43.48%</span>
+<span class="percent">43.49%</span>
 </li>
 
 
