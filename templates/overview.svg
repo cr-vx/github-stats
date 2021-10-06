@@ -5,46 +5,40 @@ svg {
   font-size: 14px;
   line-height: 21px;
 }
-
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
-  fill: white;
+  fill: #292d3e;
   stroke: rgb(225, 228, 232);
   stroke-width: 1px;
   rx: 6px;
   ry: 6px;
 }
-
 foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 32px);
 }
-
 table {
   width: 100%;
   border-collapse: collapse;
   table-layout: auto;
 }
-
 th {
   padding: 0.5em;
   padding-top: 0;
   text-align: left;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(3, 102, 214);
+  color: #c792ea;
 }
-
 td {
   margin-bottom: 16px;
   margin-top: 8px;
   padding: 0.25em;
   font-size: 12px;
   line-height: 18px;
-  color: rgb(88, 96, 105);
+  color: #a6accd;
 }
-
 tr {
   transform: translateX(-200%);
   animation-duration: 2s;
@@ -52,13 +46,11 @@ tr {
   animation-function: ease-in-out;
   animation-fill-mode: forwards;
 }
-
 .octicon {
-  fill: rgb(88, 96, 105);
+  fill: #89ddff;
   margin-right: 1ch;
   vertical-align: top;
 }
-
 @keyframes slideIn {
   to {
     transform: translateX(0);
